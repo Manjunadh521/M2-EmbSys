@@ -6,7 +6,7 @@
 * Displays the amount of time we set for cooking and different modes of cooking.
 ## Buttons/Touch Screen
 * Helps us in selecting time and mode of cooking.
-## Sensor (Safety Lock)
+## Safety Sensor
 * This Safety lock sensor gives data to Micro Controller whether door is open or close while cooking. 
 ## Actuator (Safety Lock)
 * Stops the oven if door is open while cooking
