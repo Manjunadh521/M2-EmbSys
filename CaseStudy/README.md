@@ -26,6 +26,10 @@
 * This is activated according to the user selected input with the help of microcontroller.
 ## Actuator(Temp cut off switches)
 * Cuts off the power supply by switching off if temperature exceeds certain limit.
+## HVAC Control unit
+* Heats and cools the system according to the temperature with the help of microcontroller
+## MicroController
+* Performs all the important operations and helps our oven to work correctly without any damages by controlling all the inputs and outputs accordingly.
 
 ## Case Study 2:Pico Projector
 ![Pico_Projector](https://user-images.githubusercontent.com/94365143/154559996-3512bb73-c0c2-406c-abff-fd488a855634.png)
@@ -56,5 +60,5 @@ to transmit our video to remmote locations
 * Detects over heating and Switch offs the projector 
 ## Discretes
 * Discrete devices are single semiconductors like diodes or transistors helps to regulate voltages, helps in lower power consumption, and reduce heat generation.
-
-
+## MicroController
+* Performs all the important operations and helps our Pico Projector to work correctly without any damages by controlling all the inputs and outputs accordingly.
