@@ -1,5 +1,6 @@
 # M2-EmbSys
 ## Case study 1:Microwave Oven
+![MicroWave_Oven](https://user-images.githubusercontent.com/94365143/154559985-02ae55d5-909e-49db-a7db-c1dfee166b0a.png)
 
 ## LCD Display
 * Displays the amount of time we set for cooking and different modes of cooking.
@@ -27,7 +28,7 @@
 * Cuts off the power supply by switching off if temperature exceeds certain limit.
 
 ## Case Study 2:Pico Projector
-
+![Pico_Projector](https://user-images.githubusercontent.com/94365143/154559996-3512bb73-c0c2-406c-abff-fd488a855634.png)
 ## SDRAM
 * This is a dynamic random access memory which is synchronised with clock speed for which our microcontroller is optimised
 * This helps in accepting new data before finishing the processing of previous data 
