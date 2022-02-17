@@ -4,7 +4,7 @@
 
 ## LCD Display
 * Displays the amount of time we set for cooking and different modes of cooking.
-## Buttons
+## Buttons/Touch Screen
 * Helps us in selecting time and mode of cooking.
 ## Sensor (Safety Lock)
 * This Safety lock sensor gives data to Micro Controller whether door is open or close while cooking. 
