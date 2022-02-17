@@ -1,11 +1,12 @@
 # M2-EmbSys
 ## Case study 1:Microwave Oven
+![MicroWave_Oven](https://user-images.githubusercontent.com/94365143/154559985-02ae55d5-909e-49db-a7db-c1dfee166b0a.png)
 
 ## LCD Display
 * Displays the amount of time we set for cooking and different modes of cooking.
-## Buttons
+## Buttons/Touch Screen
 * Helps us in selecting time and mode of cooking.
-## Sensor (Safety Lock)
+## Safety Sensor
 * This Safety lock sensor gives data to Micro Controller whether door is open or close while cooking. 
 ## Actuator (Safety Lock)
 * Stops the oven if door is open while cooking
@@ -25,9 +26,13 @@
 * This is activated according to the user selected input with the help of microcontroller.
 ## Actuator(Temp cut off switches)
 * Cuts off the power supply by switching off if temperature exceeds certain limit.
+## HVAC Control unit
+* Heats and cools the system according to the temperature with the help of microcontroller
+## MicroController
+* Performs all the important operations and helps our oven to work correctly without any damages by controlling all the inputs and outputs accordingly.
 
 ## Case Study 2:Pico Projector
-
+![Pico_Projector](https://user-images.githubusercontent.com/94365143/154559996-3512bb73-c0c2-406c-abff-fd488a855634.png)
 ## SDRAM
 * This is a dynamic random access memory which is synchronised with clock speed for which our microcontroller is optimised
 * This helps in accepting new data before finishing the processing of previous data 
@@ -55,5 +60,5 @@ to transmit our video to remmote locations
 * Detects over heating and Switch offs the projector 
 ## Discretes
 * Discrete devices are single semiconductors like diodes or transistors helps to regulate voltages, helps in lower power consumption, and reduce heat generation.
-
-
+## MicroController
+* Performs all the important operations and helps our Pico Projector to work correctly without any damages by controlling all the inputs and outputs accordingly.
