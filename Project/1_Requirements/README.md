@@ -6,43 +6,32 @@
 
 ## State of art/ Research
  Today's world is highly reliable on teachnology.Even the world around us is in our smart phone.So it would be good if we automate our own from any corner of the world.
- Here comes the requirement of our project where we can control our home with our smartphone from anywhere from the world.This is a boon to us where we can get an option
- to control our home from all around the world.
+ Here comes the requirement of our project where we can control our home with our Home Automation System with Keypad Interface(HASKI) from anywhere.This is a boon to us where we can get an option to control our home from anywhere we needed to operate it.
 
 ## 4 W's and 1H
 # Who
-Patient who needs to be vaccinated.
+People having house.
 # What
-Verify the details of the patient using the alloted data and providing the list of patients at the end of the day.
+Home control through our Home Automation System with Keypad Interface.
 # When
-During the time alloted for vaccination.
+Whenever people want to control their house automatically.
 # Where
-Local vaccination centre.
+Anywhere inside the house.
 # How
-Registration and on field verification using ADHAAR nad Phone number.
+Just using a Keypad.
 
 
 ## High Level Requirements
-* System can be able to store the data and can be provided at the end of the day
-* User should be able to add new registrations	
-* System recognizes vaccinated patients		
-* System validates the invalid credentials	and ask us to enter again if any wrong data is entered
-* System is updated into locally after eac and every vaccination taken
-* User can have only single account with one adhhar number
+* System should control Fan,Light,Doors automatically.
+* There should be a keypad interface for easyness.	
+* Entered key value should be appeared on LCD Screen.	
+* System should display temperature on LCD.
 
 
 ## Low Level Requirements
-* Details of user should be enterd by us 
-* User is alowed to select vaccine type	by pressing a number 
-*	Total quantity of vaccines and people vaccinated can be obtained by pressing 2022
-*	Full list of vaccinated people and number of viles used must is printed as output as output	
-*	Patients vaccination status can be tracked by entering their ADHAAR and Phone number
+* Input should be taken by user with the help of keypad 
+* User is alowed to select the operation should be done 
+*	LCD and Keyapad interfacing with micro controller
+*	Fans,Lights and Doors should be controlled automatically with a click on keypad.	
 
-
-## Best method followed
- * Used functions to decrease dependency on main function
- * Used structures and arrays to accept the inputs from user and store the values which helped in creating easy design of vaccination website locally
- * Printf statements have been placed only wherever necessary to avoid confusions
- * Created header file so that the fuctions can be used else where ever required without any difficulty
- * Unit testing is done to avoid any computational errors. 
 
