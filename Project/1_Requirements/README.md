@@ -30,7 +30,7 @@ Just using a Keypad.
 | HL4 | System should display temperature on LCD |
 
 
-| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| ID | Low Level Requirements for HL1|       
 | -------- | -------------- | 
 | LL1 | According to the values of __Keypad__ control the doors,fans and speeds|      
 | LL2 | User is alowed to select the operation should be done through __Keypad__ |
