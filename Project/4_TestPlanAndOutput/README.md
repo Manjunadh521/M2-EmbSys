@@ -8,12 +8,12 @@
 | 02 | Keypad | 1 | 1(Door Opens) | Found |
 | 03 | Keypad | 2 | 2(Door Closes) | Found |
 | 04 | Keypad | 3 | 3(Door Opens) | Found |
-| 05 | Keypad | 4 | 4(Light On) | Found |
-| 06 | Keypad | 5 | 5(Light On 50% intensity) | Found |
-| 07 | Keypad | 6 | 6(Light Off) | Found |
-| 08 | Keypad | 7 | 7( Fan On) | Found |
-| 09 | Keypad | 8 | 8(Fan speed 50%) | Found |
-| 10 | Keypad | 9 | 9(Fan off) | Found |
+| 05 | Keypad | 4 | 4(Light On) | To be Done |
+| 06 | Keypad | 5 | 5(Light On 50% intensity) | To be Done |
+| 07 | Keypad | 6 | 6(Light Off) | To be Done |
+| 08 | Keypad | 7 | 7( Fan On) | To be Done |
+| 09 | Keypad | 8 | 8(Fan speed 50%) | To be Done |
+| 10 | Keypad | 9 | 9(Fan off) | To be Done |
 
 
 
