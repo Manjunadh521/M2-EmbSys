@@ -25,8 +25,8 @@
 | 02 | LCD Display | 1 | 1 | Found |
 | 03 | LCD Display | 2 | 2 | Found |
 | 04 | LCD Display | Manjunadh | Manjunadh | Found |
-| 05 | ANalog to Digital | To be Done | To be Done | To be Found |
-| 06 | ANalog to Digital | To be Done | To be Done | To be Found |
+| 05 | Analog to Digital | To be Done | To be Done | To be Found |
+| 06 | Analog to Digital | To be Done | To be Done | To be Found |
 
 
 
