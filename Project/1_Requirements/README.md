@@ -22,16 +22,22 @@ Just using a Keypad.
 
 
 ## High Level Requirements
-* System should control Fan,Light,Doors automatically.
-* There should be a keypad interface for easyness.	
-* Entered key value should be appeared on LCD Screen.	
-* System should display temperature on LCD.
+| ID | High Level Requirements |
+| -------- | -------------- |
+| HL1 | System should control Fan,Light,Doors automatically |
+| HL2 | There should be a keypad interface |
+| HL3 |  Entered key value should be appeared on LCD Screen |
+| HL4 | System should display temperature on LCD |
 
 
-## Low Level Requirements
-* Input should be taken by user with the help of keypad.
-* User is alowed to select the operation should be done. 
-*	LCD and Keyapad interfacing with micro controller.
-*	Fans,Lights and Doors should be controlled automatically with a click on keypad.	
+| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| -------- | -------------- | 
+| LL1 | According to the values of __Keypad__ control the doors,fans and speeds|      
+| LL2 | User is alowed to select the operation should be done through __Keypad__ |
+| LL3 | LCD and __Keyapad__ interfacing with micro controller|      
+| LL4 | Fans,Lights and Doors should be controlled automatically with a click on	__Keypad__ |
+
+
+
 
 
