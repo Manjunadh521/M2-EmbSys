@@ -39,8 +39,8 @@ Just using a Keypad.
 
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
-| H1L1 | According to the values of __Keypad__ control the intensity of Fan,Light|       |H2L1 |  | __Keypad__ value should be displayed on LCD screen |
-| H1L2 | Depending on values of __Kaypad__ controll the opening,closing of doors|       |H2L2 |  |__Keypad__ shoul be interfaced microcontroller |
+| H1L1 | According to the values of __Keypad__ control the intensity of Fan,Light|      |H2L1 | __Keypad__ value should be displayed on LCD screen |
+| H1L2 | Depending on values of __Kaypad__ controll the opening,closing of doors|       |H2L2 | __Keypad__ shoul be interfaced microcontroller |
 
 
 
