@@ -24,10 +24,10 @@ Just using a Keypad.
 ## High Level Requirements
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HL1 | System should control Fan,Light,Doors automatically |
+| HL1 | System should control Fan,Light,Doors automatically through keypad|
 | HL2 | There should be a keypad interface |
-| HL3 |  Entered key value should be appeared on LCD Screen |
-| HL4 | System should display temperature on LCD |
+| HL3 | Fans and Lights speeds are to be controlled |
+| HL4 | System should detect temperature |
 
 
 | ID | Low Level Requirements for HL1|       
@@ -37,7 +37,17 @@ Just using a Keypad.
 | LL3 | LCD and __Keyapad__ interfacing with micro controller|      
 | LL4 | Fans,Lights and Doors should be controlled automatically with a click on	__Keypad__ |
 
+| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| -------- | -------------- | ---- |-------- | -------------- |
+| H1L1 | According to the values of __Keypad__ control the intensity of Fan,Light|       |H2L1 |  | __Keypad__ value should be displayed on LCD screen |
+| H1L2 | Depending on values of __Kaypad__ controll the opening,closing of doors|       |H2L2 |  |__Keypad__ shoul be interfaced microcontroller |
 
+
+
+| ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
+| -------- | -------------- | ---- | -------- | -------------- |
+| H3L1 | The  MicroController should send pwm signal to control __Fan__ speed |  | H4L1 | The  MicroController should send pwm signal to control __Light__ intensity |
+| H3L2 | The Temperature __sensor__ is used to ddetect Temperature  |  | H4L2 | Temperature value should be displaced on LCD with __sensor__ Interfacing |
 
 
 
