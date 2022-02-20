@@ -1,3 +1,4 @@
+## Overview of Repository:
 # Home Automation System with Keypad Interface (H.A.S.K.I)
 
 ## Description
