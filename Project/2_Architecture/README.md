@@ -31,3 +31,6 @@
 * This is the main component which controls all the above mentioned part or thins of our embedded system.This interfaces keypad and LCD and controlls the fan,light and doors depending on the value we pressed on keypad.
 
 ## Current Simulation Progress:
+![Screenshot 2022-02-20 140047](https://user-images.githubusercontent.com/94365143/154834794-2a57d638-eb82-4991-b589-90cbcbea8566.png)
+
+* Done with Interfacing of keypad,LCD with MicroController. Door control is also completed.  
