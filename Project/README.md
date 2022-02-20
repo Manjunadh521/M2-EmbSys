@@ -72,7 +72,7 @@
 
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| H3L1 | The  MicroController should send pwm signal to control __Fan__ speed |  | H4L1 | The  MicroController should send pwm signal to control __Light__ intensity |
+| H3L1 | The  MicroController should send pwm signal to control __Fan__ speed |  | H4L1 | The  MicroController should send pwm signal to control __Fan__ speed |
 | H3L2 | The Temperature __sensor__ is used to ddetect Temperature  |  | H4L2 | Temperature value should be displaced on LCD with __sensor__ Interfacing |
 
 # Test plan and output
