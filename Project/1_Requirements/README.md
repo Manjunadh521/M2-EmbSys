@@ -7,18 +7,10 @@
 ## State of art/ Research
  Today's world is highly reliable on teachnology.Even the world around us is in our smart phone.So it would be good if we automate our own from any corner of the world.
  Here comes the requirement of our project where we can control our home with our Home Automation System with Keypad Interface(HASKI) from anywhere.This is a boon to us where we can get an option to control our home from anywhere we needed to operate it.
+ 
+ ## 5W's 1H
+![5w1h-questions-and-answer (1)](https://user-images.githubusercontent.com/94365143/154832067-296a3ee2-bcde-4944-a580-d0fb84c350e5.png)
 
-## 4 W's and 1H
-# Who
-People having house.
-# What
-Home control through our Home Automation System with Keypad Interface.
-# When
-Whenever people want to control their house automatically.
-# Where
-Anywhere inside the house.
-# How
-Just using a Keypad.
 
 
 ## High Level Requirements
