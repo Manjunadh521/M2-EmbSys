@@ -1,3 +1,4 @@
+# Requirements
 ## Identifying features
 * Keypad provided for easy access of available features.
 * Automatic door open and close using motor system and automatic stop switches provided if rotating limit reached.
@@ -11,6 +12,8 @@
  ## 5W's 1H
 ![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
 
+## Swot Analysis
+![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
 
 ## High Level Requirements
