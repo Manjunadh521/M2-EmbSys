@@ -63,13 +63,6 @@
 | HL4 | System should detect temperature |
 
 
-| ID | Low Level Requirements for HL1|       
-| -------- | -------------- | 
-| HL1 | According to the values of __Keypad__ control the doors,fans and speeds|      
-| HL2 | User is alowed to select the operation should be done through __Keypad__ |
-| HL3 | LCD and __Keyapad__ interfacing with micro controller|      
-| HL4 | Fans,Lights and Doors should be controlled automatically with a click on	__Keypad__ |
-
 | ID | Low Level Requirements for LL1|       |ID | Low Level Requirements for LL2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | H1L1 | According to the values of __Keypad__ control the intensity of Fan,Light|      |H2L1 | __Keypad__ value should be displayed on LCD screen |
