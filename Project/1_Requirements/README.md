@@ -9,7 +9,7 @@
  Here comes the requirement of our project where we can control our home with our Home Automation System with Keypad Interface(HASKI) from anywhere.This is a boon to us where we can get an option to control our home from anywhere we needed to operate it.
  
  ## 5W's 1H
-![5w1h-questions-and-answer (1)](https://user-images.githubusercontent.com/94365143/154832067-296a3ee2-bcde-4944-a580-d0fb84c350e5.png)
+![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
 
 
 
