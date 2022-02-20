@@ -29,3 +29,5 @@
 * Temperature inside room is controlled by fan.
 ## MicroController:
 * This is the main component which controls all the above mentioned part or thins of our embedded system.This interfaces keypad and LCD and controlls the fan,light and doors depending on the value we pressed on keypad.
+
+## Current Simulation Progress:
