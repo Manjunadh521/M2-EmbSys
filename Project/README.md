@@ -62,7 +62,7 @@
 | HL3 | Fans and Lights speeds are to be controlled |
 | HL4 | System should detect temperature |
 
-
+## Low Level Requirements
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | H1L1 | According to the values of __Keypad__ control the intensity of Fan,Light|      |H2L1 | __Keypad__ value should be displayed on LCD screen |
