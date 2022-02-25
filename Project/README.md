@@ -119,7 +119,7 @@
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
 
-# Low LEVEL TEST PLAN
+# LOW LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
