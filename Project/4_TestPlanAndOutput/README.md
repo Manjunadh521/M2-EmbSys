@@ -2,6 +2,7 @@
 
 # HIGH LEVEL TEST PLAN
 
+
 | Test ID | Description | Input | Expected output | Actual Output |
 | --- | --- | --- | --- | --- |
 | 01 | Thermistor | Room Temperature | Temperature(to volts) | Found |
