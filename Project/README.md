@@ -73,8 +73,7 @@
 
 # 3 Block Diagram and Blocks explination
 ## 3.1 BLOCK DIAGRAM
-![Screenshot 2022-02-19 002830](https://user-images.githubusercontent.com/94365143/154833746-7c08aee8-ccf7-46d9-83d2-2b20681be54e.png)
-
+![csmicrowaveoven drawio (1)](https://user-images.githubusercontent.com/94365143/155744126-970fa92c-6787-4c1e-af1d-46a8aad3d82f.png)
 ## 3.2 SENSORS
 * ### Temperature Sensor (Thermistor)
     * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller.
