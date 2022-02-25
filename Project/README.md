@@ -123,6 +123,7 @@
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
+
 | Test ID (for LCD)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Check for LCD_Char() | A  | A |  A | To be done |
