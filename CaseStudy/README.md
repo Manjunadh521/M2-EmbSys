@@ -1,3 +1,4 @@
+# M2-EmbSys
 # Home Automation System with Keypad Interface (H.A.S.K.I)
 ---
 # Table of content
@@ -151,8 +152,6 @@
 ---
 
 
-
-# M2-EmbSys
 ## Case study 1:Microwave Oven
 ![MicroWave_Oven](https://user-images.githubusercontent.com/94365143/154559985-02ae55d5-909e-49db-a7db-c1dfee166b0a.png)
 
