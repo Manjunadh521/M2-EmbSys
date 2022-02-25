@@ -99,10 +99,6 @@
 * ### Motor Driver Unit:
     * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293183). 
 
-## Current Simulation Progress:
-![Screenshot 2022-02-20 140047](https://user-images.githubusercontent.com/94365143/154834794-2a57d638-eb82-4991-b589-90cbcbea8566.png)
-
-* Done with Interfacing of keypad,LCD with MicroController. Door control is also completed.  
 
 # Test plan and output
 
@@ -111,30 +107,30 @@
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Thermistor | Room Temperature(25°C) | Temperature(25°C) | Temperature(25°C) | To be Done |
-| 02 | Keypad | 1 | 1(Door Opens) | 1 | To be Done |
-| 03 | Keypad | 2 | 2(Door Closes) | 2 | To be Done |
-| 04 | Keypad | 3 | 3(Ligh On) | 3 | To be Done |
-| 05 | Keypad | 3 | 3(Light Off) | 3 | To be Done |
-| 06 | Keypad | 4 | 4(Fan On) | 4 | To be Done |
-| 07 | Keypad | 4 | 4(Fan Off) | 4 | To be Done |
-| 08 | Keypad | * | * (No of Fan On and Light On) | * | To be Done |
+| 01 | Thermistor | Room Temperature(35°C) | Temperature(35°C) | Temperature(35°C) | To be Done |
+| 02 | Keypad | 1 | 1(Door Opens) | 1(Door Opens) | To be Done |
+| 03 | Keypad | 2 | 2(Door Closes) | 2(Door Closes) | To be Done |
+| 04 | Keypad | 3 | 3(Ligh On) | 3(Ligh On) | To be Done |
+| 05 | Keypad | 3 | 3(Light Off) | 3(Light Off) | To be Done |
+| 06 | Keypad | 4 | 4(Fan On) | 4(Fan On) | To be Done |
+| 07 | Keypad | 4 | 4(Fan Off) | 4(Fan Off) | To be Done |
+| 08 | Keypad | * | * (No of Fan On and Light On) | * (No of Fan On and Light On | To be Done |
 
 # Low LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | LCD Display | 0 | 0 | 0 | To be Done |
-| 02 | LCD Display | 1 | 1 | 1 | To be Done |
-| 04 | LCD Display | Manjunadh | Manjunadh | Manjunadh | To be Done |
-| 05 | Temperature | 25°C | 25°C | 25°C | To be Done |
-| 06 | Temperature | 30°C | 25°C | 25°C | To be Done |
-| 07 | Motor Control | 1 | Motor should Rotate Clock wise | Motor Rotating Clock wise | To be Done |
-| 08 | Motor Control | 2 | Motor should Rotate AntiClock wise | Motor Rotating AntiClock wise | To be Done |
-| 10 | Light On | 3 | Light On | Light On | To be Done |
-| 11 | Light Off | 3(Pressing Second Time) | Light Off | Light Off | To be Done |
-| 12 | Fan Off | 4 | Fan On | Fan On | To be Done |
-| 13 | Fan Off | 4(Pressing Second Time) | Fan Off | Fan Off | To be Done |
-| 14 | No of Fan On and Light On | * | Light On Count | Fan On Count | To be Done |
+| Test ID (for LCD)| Description | Input | Expected output | Actual Output | passed/not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Check for LCD_Char() | A  | A |  A | To be done |
+| 02 | Check for LCD_String() | Manjunadh | Manjunadh | Manjunadh | To be done |
+| 03 | Check for LCD_String() | Home | Home | Home | To be done |
+
+
+| Test ID (for ADC)| Description | Input | Expected output | Actual Output | passed/not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
+| 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
 
 # M2-EmbSys
