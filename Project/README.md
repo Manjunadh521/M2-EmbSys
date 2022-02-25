@@ -15,6 +15,13 @@
     1. Actuators
     1. Micro controller and memory
     1. Sub-system and others
+ 1. Architecture
+    1. Behavioural Diagram
+        1. High Level Flow chart Behavioural Diagram
+        1. Low Level Flow chart Behavioural Diagram
+    1. Structural Diagram
+        1. High Level UML Use Case Structural Diagram
+        1. Low Level UML Use Case Structural Diagram
 1. Test plan and Output
     1. High level test plan
     1. Low level test plan
@@ -98,11 +105,21 @@
  ## 3.5 SUBSYSTEM & OTHERS
 * ### Motor Driver Unit:
     * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293183). 
+ ---
+# 4 Architecture
+* ## 4.1 Behavioural Diagram
+    * ### 4.1.1 High Level Flow chart Behavioural Diagram
+    
+    * ### 4.1.2 Low Level Flow chart Behavioural Diagram
+* ## 4.2 Structural Diagram
+    * ### 4.2.1 High Level UML Use Case Structural Diagram
+    
+    * ### 4.2.2 Low Level UML Use Case Structural Diagram
+ ---
 
+# 5 Test plan and output
 
-# 4 Test plan and output
-
-# 4.1 HIGH LEVEL TEST PLAN
+# 5.1 HIGH LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
@@ -119,7 +136,7 @@
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
 
-# 4.2 LOW LEVEL TEST PLAN
+# 5.2 LOW LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
@@ -136,7 +153,7 @@
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
-# 5 Application
+# 6 Application
 * This system can be used in Automation of Houses,Industries,Stadiums etc...
 * This system can be used in Light Control of Houses,Industries,Stadiums etc...
 * This system can be used in Fan Control of Houses,Industries,Stadiums etc...
