@@ -117,7 +117,8 @@
     * ### 4.2.1 High Level UML Use Case Structural Diagram
     ![Homeautomationumlhigh drawio](https://user-images.githubusercontent.com/94365143/155739956-2e768765-460a-49b6-a80b-ecabe5c1a1cd.png)
     * ### 4.2.2 Low Level UML Use Case Structural Diagram
-    ![Homeautomationumllow drawio (1)](https://user-images.githubusercontent.com/94365143/155739972-3839b494-ea01-43d0-b4ed-5d221779f396.png)
+    ![Homeautomationumllow drawio (2)](https://user-images.githubusercontent.com/94365143/155742932-9ed19b51-e759-4085-9508-23bef2a91e94.png)
+
  ---
 
 # 5 Test plan and output
