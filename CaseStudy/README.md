@@ -34,7 +34,7 @@
 * Security lock is provided to unlock the system.
 ---
 ## State of art
-* The main focus of this project .
+* The main focus of this project is to control Doors,Fans and Lights through a remote. A security code shall be fixed which ensures security to our house even when remote is misplaced. A LCD screen can be seen which displays the option we enter and also the present status of number of Lights and Fans on or off can be seen. By combining all these features a final product is made known as H.A.S.K.I. As the technology is increasing rapidly these kind of automations are very useful in our daily lives.
 ---
  ## 5W's 1H
 ![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
@@ -43,21 +43,22 @@
 ## High Level Requirements
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HL1 | System should control Fan,Light,Doors automatically through keypad|
-| HL2 | There should be a keypad interface |
-| HL3 | Fans and Lights speeds are to be controlled |
-| HL4 | System should detect temperature |
+| HLR1 | System shall control Fan,Light,Doors by pressing a number on Keypad |
+| HLR2 | There shall be a LCD to display the numbers we press |
+| HLR3 | A password shall be provided for our system A password shall be provided for our system 
+| HLR4 | System shall detect temperaure |
 
 ## Low Level Requirements
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
-| H1L1 | According to the values of __Keypad__ control the intensity of Fan,Light|      |H2L1 | __Keypad__ value should be displayed on LCD screen |
-| H1L2 | Depending on values of __Kaypad__ controll the opening,closing of doors|       |H2L2 | __Keypad__ shoul be interfaced microcontroller |
+| LLR1.1 |  According to the values of __Keypad__  Fan,Light shall be controlled | | LLR2.1 | Entered value on keypad shall be displayed on __LCD__ Screen |
+| LLR1.2 | According to the values of __Kaypad__ opening,closing of doors shall be controlled || LLR2.2 | Number of Lights and Fans On __LCD__ Screen |
+     
 
 
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| H3L1 | The  MicroController should send pwm signal to control __Fan__ speed |  | H4L1 | The  MicroController should send pwm signal to control __Fan__ speed |
+| H3L1 | The  MicroController should send pwm signal to control __Fan__ speed |  | H4L1 | The  MiDepending on values of __Kaypad__ controll the opening,closing of doorscroController should send pwm signal to control __Fan__ speed |
 | H3L2 | The Temperature __sensor__ is used to ddetect Temperature  |  | H4L2 | Temperature value should be displaced on LCD with __sensor__ Interfacing |
 
 ## Swot Analysis
