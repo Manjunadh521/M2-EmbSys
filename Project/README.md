@@ -19,7 +19,7 @@
     1. High level test plan
     1. Low level test plan
 1. Application
-1. Current Progress
+
 ---
 
 ## Description
@@ -116,6 +116,9 @@
 | 07 | Keypad | 4 | 4(Fan Off) | 4(Fan Off) | To be Done |
 | 08 | Keypad | * | * (No of Fan On and Light On) | * (No of Fan On and Light On | To be Done |
 
+
+### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
+
 # Low LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
@@ -132,7 +135,13 @@
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
-
+# Application
+* This system shall be used in Automation of Houses,Industries,Stadiums etc...
+* This system shall be used in Light Control of Houses,Industries,Stadiums etc...
+* This system shall be used in Fan Control of Houses,Industries,Stadiums etc...
+* This system shall be used in Door Control of Houses,Industries,Stadiums etc...
+* This system shall be used in Automatic Temperature Detector of Houses,Industries,Stadiums etc...
+* This system shall be used to know number of appliances "On" status of Houses,Industries,Stadiums etc... 
 
 
 
