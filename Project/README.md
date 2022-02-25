@@ -48,6 +48,7 @@
 ## Swot Analysis
 ![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
+---
 # 2 Requirements
 ## 2.1 High Level Requirements
 | ID | High Level Requirements |
@@ -68,9 +69,9 @@
 | -------- | -------------- | ---- | -------- | -------------- |
 | LLR3.1 |  Device shall open when the __Password__ is matched | | LLR4.1 | __Temperature Sensor__ shall detect the room temperature |
 | LLR3.2 | Device shall ask to Re-Enter the __Password__ again if entered one is wrong || LLR4.2 | The temperature detected by  __Temperature Sensor__ shall be printed on LCD Screen |
+---
 
 # 3 Block Diagram and Blocks explination
-
 ## 3.1 BLOCK DIAGRAM
 ![Screenshot 2022-02-19 002830](https://user-images.githubusercontent.com/94365143/154833746-7c08aee8-ccf7-46d9-83d2-2b20681be54e.png)
 
@@ -154,7 +155,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
-
+---
 # 6 Application
 * This system can be used in Automation of Houses,Industries,Stadiums etc...
 * This system can be used in Light Control of Houses,Industries,Stadiums etc...
@@ -162,7 +163,7 @@
 * This system can be used in Door Control of Houses,Industries,Stadiums etc...
 * This system can be used in Automatic Temperature Detector of Houses,Industries,Stadiums etc...
 * This system can be used to know number of appliances "On" status of Houses,Industries,Stadiums etc... 
-
+---
 
 
 
