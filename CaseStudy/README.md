@@ -23,6 +23,22 @@
 ---
 ## Description
 * This project is an Home Automation System with Keypad Interface (H.A.S.K.I). This system helps to control Light, Fans and Doors of our house. There is a keypad present which enables a feature on pressing each number. For example if we press 1 then it opens our maindoor and if we press 2 it closes our main door.There are several features such as fixing a password to our system and even temperature is displayed on our LCD.   
+---
+## Identifying features
+* Keypad provided for easy access of available features.
+* Automatic door open and close using motor system and automatic stop switches provided if rotating limit reached.
+* LCD Display for better understanding of the option we pressed.
+* Temperature detection and display in LCD.
+---
+## State of art/ Research
+ Today's world is highly reliable on teachnology.Even the world around us is in our smart phone.So it would be good if we automate our own from any corner of the world.
+ Here comes the requirement of our project where we can control our home with our Home Automation System with Keypad Interface(HASKI) from anywhere.This is a boon to us where we can get an option to control our home from anywhere we needed to operate it.
+---
+ ## 5W's 1H
+![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
+
+## Swot Analysis
+![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 ## Block Diagram
 ![Screenshot 2022-02-19 002830](https://user-images.githubusercontent.com/94365143/154833746-7c08aee8-ccf7-46d9-83d2-2b20681be54e.png)
 
@@ -56,22 +72,9 @@
 
 * Done with Interfacing of keypad,LCD with MicroController. Door control is also completed.  
 
-# Requirements
-## Identifying features
-* Keypad provided for easy access of available features.
-* Automatic door open and close using motor system and automatic stop switches provided if rotating limit reached.
-* LCD Display for better understanding of the option we pressed.
-* Temperature detection and display in LCD.
 
-## State of art/ Research
- Today's world is highly reliable on teachnology.Even the world around us is in our smart phone.So it would be good if we automate our own from any corner of the world.
- Here comes the requirement of our project where we can control our home with our Home Automation System with Keypad Interface(HASKI) from anywhere.This is a boon to us where we can get an option to control our home from anywhere we needed to operate it.
  
- ## 5W's 1H
-![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
 
-## Swot Analysis
-![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
 
 ## High Level Requirements
