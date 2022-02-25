@@ -38,6 +38,8 @@
 ---
  ## 5W's 1H
 ![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
+## Swot Analysis
+![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
 # Requirements
 ## High Level Requirements
@@ -49,21 +51,16 @@
 | HLR4 | System shall detect temperaure |
 
 ## Low Level Requirements
+
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | LLR1.1 |  According to the values of __Keypad__  Fan,Light shall be controlled | | LLR2.1 | Entered value on keypad shall be displayed on __LCD__ Screen |
 | LLR1.2 | According to the values of __Kaypad__ opening,closing of doors shall be controlled || LLR2.2 | Number of Lights and Fans On __LCD__ Screen |
      
-
-
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
 | LLR3.1 |  Device shall open when the __Password__ is matched | | LLR4.1 | __Temperature Sensor__ shall detect the room temperature |
-| LLR3.2 | Device shall ask to Re-Enter the __Password__ again if entered one is wrong || LLR4.2 | The temperature detected by  __Temperature Sensor__ shall be printed on __LCD__ Screen |
-
-## Swot Analysis
-![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
-
+| LLR3.2 | Device shall ask to Re-Enter the __Password__ again if entered one is wrong || LLR4.2 | The temperature detected by  __Temperature Sensor__ shall be printed on LCD Screen |
 
 ## Block Diagram
 ![Screenshot 2022-02-19 002830](https://user-images.githubusercontent.com/94365143/154833746-7c08aee8-ccf7-46d9-83d2-2b20681be54e.png)
@@ -102,37 +99,33 @@
 
 # HIGH LEVEL TEST PLAN
 
-| Test ID | Description | Input | Expected output | Actual Output |
-| --- | --- | --- | --- | --- |
-| 01 | Thermistor | Room Temperature | Temperature(to volts) | Found |
-| 02 | Keypad | 1 | 1(Door Opens) | Found |
-| 03 | Keypad | 2 | 2(Door Closes) | Found |
-| 04 | Keypad | 3 | 3(Door Opens) | Found |
-| 05 | Keypad | 4 | 4(Light On) | To be Done |
-| 06 | Keypad | 5 | 5(Light On 50% intensity) | To be Done |
-| 07 | Keypad | 6 | 6(Light Off) | To be Done |
-| 08 | Keypad | 7 | 7( Fan On) | To be Done |
-| 09 | Keypad | 8 | 8(Fan speed 50%) | To be Done |
-| 10 | Keypad | 9 | 9(Fan off) | To be Done |
-
-
+| Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Thermistor | Room Temperature(25°C) | Temperature(25°C) | Temperature(25°C) | To be Done |
+| 02 | Keypad | 1 | 1(Door Opens) | 1 | To be Done |
+| 03 | Keypad | 2 | 2(Door Closes) | 2 | To be Done |
+| 04 | Keypad | 3 | 3(Ligh On) | 3 | To be Done |
+| 05 | Keypad | 3 | 3(Light Off) | 3 | To be Done |
+| 06 | Keypad | 4 | 4(Fan On) | 4 | To be Done |
+| 07 | Keypad | 4 | 4(Fan Off) | 4 | To be Done |
+| 08 | Keypad | * | * (No of Fan On and Light On) | * | To be Done |
 
 # Low LEVEL TEST PLAN
 
-| Test ID | Description | Input | Expected output | Actual Output |
-| --- | --- | --- | --- | --- |
-| 01 | LCD Display | 0 | 0 | Found |
-| 02 | LCD Display | 1 | 1 | Found |
-| 03 | LCD Display | 2 | 2 | Found |
-| 04 | LCD Display | Manjunadh | Manjunadh | Found |
-| 05 | Analog to Digital | To be Done | To be Done | To be Found |
-| 06 | Analog to Digital | To be Done | To be Done | To be Found |
-
-
-
-
-
-
+| Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | LCD Display | 0 | 0 | 0 | To be Done |
+| 02 | LCD Display | 1 | 1 | 1 | To be Done |
+| 04 | LCD Display | Manjunadh | Manjunadh | Manjunadh | To be Done |
+| 05 | Temperature | 25°C | 25°C | 25°C | To be Done |
+| 06 | Temperature | 30°C | 25°C | 25°C | To be Done |
+| 07 | Motor Control | 1 | Motor should Rotate Clock wise | Motor Rotating Clock wise | To be Done |
+| 08 | Motor Control | 2 | Motor should Rotate AntiClock wise | Motor Rotating AntiClock wise | To be Done |
+| 10 | Light On | 3 | Light On | Light On | To be Done |
+| 11 | Light Off | 3(Pressing Second Time) | Light Off | Light Off | To be Done |
+| 12 | Fan Off | 4 | Fan On | Fan On | To be Done |
+| 13 | Fan Off | 4(Pressing Second Time) | Fan Off | Fan Off | To be Done |
+| 14 | No of Fan On and Light On | * | Light On Count | Fan On Count | To be Done |
 
 
 # M2-EmbSys
