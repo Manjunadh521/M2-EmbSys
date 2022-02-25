@@ -21,7 +21,7 @@
 1. Application
 
 ---
-#1. About the H.A.S.K.I
+# 1 About the H.A.S.K.I
 ## 1.1 Description
 * This project is an Home Automation System with Keypad Interface (H.A.S.K.I). This system helps to control Light, Fans and Doors of our house. There is a keypad present which enables a feature on pressing each number. For example if we press 1 then it opens our maindoor and if we press 2 it closes our main door.There are several features such as fixing a password to our system and even temperature is displayed on our LCD.   
 ---
@@ -100,9 +100,9 @@
     * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293183). 
 
 
-# 4.Test plan and output
+# 4 Test plan and output
 
-# 4.1HIGH LEVEL TEST PLAN
+# 4.1 HIGH LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
@@ -119,7 +119,7 @@
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
 
-# 4.2LOW LEVEL TEST PLAN
+# 4.2 LOW LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
@@ -136,7 +136,7 @@
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
-# 5.Application
+# 5 Application
 * This system can be used in Automation of Houses,Industries,Stadiums etc...
 * This system can be used in Light Control of Houses,Industries,Stadiums etc...
 * This system can be used in Fan Control of Houses,Industries,Stadiums etc...
