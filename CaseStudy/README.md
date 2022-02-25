@@ -62,33 +62,42 @@
 | LLR3.1 |  Device shall open when the __Password__ is matched | | LLR4.1 | __Temperature Sensor__ shall detect the room temperature |
 | LLR3.2 | Device shall ask to Re-Enter the __Password__ again if entered one is wrong || LLR4.2 | The temperature detected by  __Temperature Sensor__ shall be printed on LCD Screen |
 
-## Block Diagram
+# 3 Block Diagram and Blocks explination
+
+## 3.1 BLOCK DIAGRAM
 ![Screenshot 2022-02-19 002830](https://user-images.githubusercontent.com/94365143/154833746-7c08aee8-ccf7-46d9-83d2-2b20681be54e.png)
 
-## Keypad:
-* Provides an interface to press a number which helps in controlling Fan,Light and Doors of our house.
-## Motor Driver Unit:
-* Helps in driving the motor for our door and fan by providing required power for them.
-## Front Stop Switch(MicroSwitch):
-* Stops the door automatically by pressing switch itself when door is completely opened.
-## Back Stop Switch(MicroSwitch):
-* Stops the door automatically by pressing switch itself when door is completely opened.                                                             
-## Clock:
-* We are using internal clock of our micro controller.
-## EEPROM:
-* Memory module of Micro controller.
-## LCD Display:
-* Displays each and every value we enter in our keypad along with Temperature.
-## Sensor(Light Detection):
-* Helps to check the intensity of light in the room.
-## Sensor(Temperature Detector):
-* Helps to detect the temperature in the room.
-## Light:
-* Lightning inside the room is controlled by light.
-## Fan:
-* Temperature inside room is controlled by fan.
-## MicroController:
-* This is the main component which controls all the above mentioned part or thins of our embedded system.This interfaces keypad and LCD and controlls the fan,light and doors depending on the value we pressed on keypad.
+## 3.2 SENSORS
+* ### Temperature Sensor (Thermistor)
+    * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller.
+* ### Keypad:
+    *  Provides an interface to press a number which helps in controlling Fan,Light and Doors of our house.
+* ### Front Stop Switch(MicroSwitch):
+    * Stops the door automatically by pressing switch itself when door is completely opened.
+* ### Back Stop Switch(MicroSwitch):
+    * Stops the door automatically by pressing switch itself when door is completely opened. 
+
+## 3.3 ACTUATORS
+* ### LCD Display:
+    * Displays each and every value we enter in our keypad along with Temperature.
+* ### Light:
+    * Lightning inside the room is controlled by light.
+* ### Fan:
+    * Temperature inside room is controlled by fan.
+* ### Motor:
+    * Helps in opening and closing our doors.
+    
+## 3.4 MICRO CONTROLLER AND MEMORY
+* ### EEPROM
+    * Here this is actually inside the microcontroller
+* ### Clock
+    * Here we are using internal clock of our micro controller.
+* ### MicroController:
+    * This is the main component which controls all the above mentioned part or thins of our embedded system.This interfaces keypad and LCD and controlls the fan,light and doors depending on the value we pressed on keypad.
+   
+ ## 3.5 SUBSYSTEM & OTHERS
+* ### Motor Driver Unit:
+    * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293183). 
 
 ## Current Simulation Progress:
 ![Screenshot 2022-02-20 140047](https://user-images.githubusercontent.com/94365143/154834794-2a57d638-eb82-4991-b589-90cbcbea8566.png)
