@@ -1,7 +1,26 @@
 # Home Automation System with Keypad Interface (H.A.S.K.I)
-## Overview of Repository:
-# Home Automation System with Keypad Interface (H.A.S.K.I)
-
+---
+# Table of content
+1. About the H.A.S.K.I
+    1. Description
+    1. Identifying features
+    1. State of art
+    1. 5W's & 1H and S.W.O.T analysis
+1. Requirements
+    1. High level requirements
+    1. Low level requirements
+1. Block Diagram and Blocks explination
+    1. Block Diagram
+    1. Sensors
+    1. Actuators
+    1. Micro controller and memory
+    1. Sub-system and others
+1. Test plan and Output
+    1. High level test plan
+    1. Low level test plan
+1. Application
+1. Current Progress
+2. ---
 ## Description
 * This project is an Home Automation System with Keypad Interface (H.A.S.K.I) which is useful to control Light, Fans and Doors of our house with just pressing a number on our keypad.   
 ## Block Diagram
