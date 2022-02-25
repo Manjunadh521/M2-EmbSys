@@ -156,6 +156,12 @@
 | --- | --- | --- | --- | --- | --- |
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
+
+| Test ID (for mapping, map)| Description | Input | Expected output | Actual Output | passed/not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Check for map() | To be done | To be done |  To be done | To be done |
+| 02 | Check for map() | To be done | To be done |  To be done | To be done |
+| 03 | Check for map() | To be done | To be done |  To be done | To be done |
 ---
 # 6 Application
 * This system can be used in Automation of Houses,Industries,Stadiums etc...
