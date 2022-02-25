@@ -109,12 +109,14 @@
 # 4 Architecture
 * ## 4.1 Behavioural Diagram
     * ### 4.1.1 High Level Flow chart Behavioural Diagram
-    
+    ![Homeautomation drawio](https://user-images.githubusercontent.com/94365143/155739910-02eb973e-1fea-4e46-8f63-48e638b3feba.png)
     * ### 4.1.2 Low Level Flow chart Behavioural Diagram
+    ![Homeautomationlow drawio (2)](https://user-images.githubusercontent.com/94365143/155739932-ad8d6c8a-44a6-4d26-9d3e-b6906c108c80.png)
 * ## 4.2 Structural Diagram
     * ### 4.2.1 High Level UML Use Case Structural Diagram
-    
+    ![Homeautomationumlhigh drawio](https://user-images.githubusercontent.com/94365143/155739956-2e768765-460a-49b6-a80b-ecabe5c1a1cd.png)
     * ### 4.2.2 Low Level UML Use Case Structural Diagram
+    ![Homeautomationumllow drawio (1)](https://user-images.githubusercontent.com/94365143/155739972-3839b494-ea01-43d0-b4ed-5d221779f396.png)
  ---
 
 # 5 Test plan and output
