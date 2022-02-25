@@ -114,8 +114,8 @@
 | 05 | Keypad | 3 | 3(Light Off) | 3(Light Off) | To be Done |
 | 06 | Keypad | 4 | 4(Fan On) | 4(Fan On) | To be Done |
 | 07 | Keypad | 4 | 4(Fan Off) | 4(Fan Off) | To be Done |
-| 08 | Keypad | * | * (No of Fan On and Light On) | * (No of Fan On and Light On | To be Done |
-
+| 08 | Keypad | * | * (No of Fan On and Light On) | * (No of Fan On and Light On) | To be Done |
+| 09 | Keypad | # | # (Restarts our system) | * (Restarted our system) | To be Done |
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
 
