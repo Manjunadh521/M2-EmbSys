@@ -1,4 +1,6 @@
-<!-- # Home Automation System with Keypad Interface (H.A.S.K.I)
+ # Home Automation System with Keypad Interface (H.A.S.K.I)
+ Check Report.pdf file or Report.docx for the REPORT
+ <!--
 ---
 # Table of content
 1. About the H.A.S.K.I
