@@ -39,8 +39,7 @@
  ## 5W's 1H
 ![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
 
-## Requirements
-
+# Requirements
 ## High Level Requirements
 | ID | High Level Requirements |
 | -------- | -------------- |
@@ -97,13 +96,6 @@
 ![Screenshot 2022-02-20 140047](https://user-images.githubusercontent.com/94365143/154834794-2a57d638-eb82-4991-b589-90cbcbea8566.png)
 
 * Done with Interfacing of keypad,LCD with MicroController. Door control is also completed.  
-
-
- 
-
-
-
-
 
 # Test plan and output
 
