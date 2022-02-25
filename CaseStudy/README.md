@@ -20,7 +20,7 @@
     1. Low level test plan
 1. Application
 1. Current Progress
-2. ---
+---
 ## Description
 * This project is an Home Automation System with Keypad Interface (H.A.S.K.I) which is useful to control Light, Fans and Doors of our house with just pressing a number on our keypad.   
 ## Block Diagram
