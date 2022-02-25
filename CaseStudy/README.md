@@ -45,7 +45,7 @@
 | -------- | -------------- |
 | HLR1 | System shall control Fan,Light,Doors by pressing a number on Keypad |
 | HLR2 | There shall be a LCD to display the numbers we press |
-| HLR3 | A password shall be provided for our system A password shall be provided for our system 
+| HLR3 | A password shall be provided for our system |
 | HLR4 | System shall detect temperaure |
 
 ## Low Level Requirements
@@ -58,8 +58,8 @@
 
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| H3L1 | The  MicroController should send pwm signal to control __Fan__ speed |  | H4L1 | The  MiDepending on values of __Kaypad__ controll the opening,closing of doorscroController should send pwm signal to control __Fan__ speed |
-| H3L2 | The Temperature __sensor__ is used to ddetect Temperature  |  | H4L2 | Temperature value should be displaced on LCD with __sensor__ Interfacing |
+| LLR3.1 |  Device shall open when the __Password__ is matched | | LLR4.1 | __Temperature Sensor__ shall detect the room temperature |
+| LLR3.2 | Device shall ask to Re-Enter the __Password__ again if entered one is wrong || LLR4.2 | The temperature detected by  __Temperature Sensor__ shall be printed on __LCD__ Screen |
 
 ## Swot Analysis
 ![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
