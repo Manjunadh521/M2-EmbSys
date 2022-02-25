@@ -98,7 +98,7 @@
    
  ## 3.5 SUBSYSTEM & OTHERS
 * ### Motor Driver Unit:
-    * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293183). 
+    * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293). 
 ---
 # 4 Test plan and output
 
