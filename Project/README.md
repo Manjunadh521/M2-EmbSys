@@ -41,8 +41,8 @@
 ## Swot Analysis
 ![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
-#2 Requirements
-##2.1 High Level Requirements
+# 2 Requirements
+## 2.1 High Level Requirements
 | ID | High Level Requirements |
 | -------- | -------------- |
 | HLR1 | System shall control Fan,Light,Doors by pressing a number on Keypad |
@@ -50,7 +50,7 @@
 | HLR3 | A password shall be provided for our system |
 | HLR4 | System shall detect temperaure |
 
-##2.2 Low Level Requirements
+## 2.2 Low Level Requirements
 
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
