@@ -1,5 +1,6 @@
  # Home Automation System with Keypad Interface (H.A.S.K.I)
-
+ Refer Report.docx and Report.pdf
+<!-- 
 ---
 # Table of content
 1. About the H.A.S.K.I
@@ -172,3 +173,4 @@
 * This system can be used to know number of appliances "On" status of Houses,Industries,Stadiums etc... 
 ---
 
+ -->
