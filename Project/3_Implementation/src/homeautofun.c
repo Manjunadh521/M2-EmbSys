@@ -181,3 +181,46 @@ int ADC_Read(char channel)
  int map(int x, int in_min, int in_max, int out_min, int out_max) {
    return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
  }
+int password(char arr[])
+{LCD_Clear();
+LCD_Init();
+	int flag=0;
+	first :
+LCD_String("Enter pwd:");
+for(int i=0;i<4;i++)
+{ 
+char pwd=keyfind();
+LCD_Char(pwd);
+if(i==0&&pwd==arr[i])
+continue;
+else if(i==1&&pwd==arr[i])
+continue;
+else if(i==2&&pwd==arr[i])
+continue;
+else if(i==3&&pwd==arr[i])
+continue;
+else
+{  flag=1;
+	for(i++;i<4;i++)
+	{
+	char pwd=keyfind();
+    LCD_Char(pwd);
+	}
+}
+}
+	if (flag==1)
+	{   LCD_Clear(); 
+		LCD_String("Wrong pwd");
+		flag=0;
+		 _delay_ms(2500);
+		 LCD_Clear();
+		goto first;	
+
+	}
+	else if (flag==0)
+	{
+		return 1;
+	}
+	
+	
+}

@@ -1,52 +1,21 @@
 #include "homeauto.h"
-
 int main(void)
 {   int count=0;
 int count1=0,count2=0;
-int flag=0;
+int res=0;
+int value;
+char string;
 int flag1=0;
 char arr[4]={'1','2','3','4'};
-up:
 LCD_Init();
-first :
-LCD_String("Enter pwd:");
-for(int i=0;i<4;i++)
-{ 
-char pwd=keyfind();
-LCD_Char(pwd);
-if(i==0&&pwd==arr[i])
-continue;
-else if(i==1&&pwd==arr[i])
-continue;
-else if(i==2&&pwd==arr[i])
-continue;
-else if(i==3&&pwd==arr[i])
-continue;
-else
-{  flag=1;
-	for(i++;i<4;i++)
-	{
-	pwd=keyfind();
-    LCD_Char(pwd);
-	}
-}
-}
-	if (flag==1)
-	{   LCD_Clear(); 
-		LCD_String("Wrong pwd");
-		flag=0;
-		 _delay_ms(2500);
-		 LCD_Clear();
-		goto first;	
-
-	}
-if(flag==0){
+up:
+res=password(arr);
+if(res==1){
 	LCD_Clear();
-	LCD_Init();
 	
 	DDRC=0xFF;
    while(1)  
-	{   
+	{   LCD_Init();
 	
         LCD_String_xy(0,1,"Press a key");
 	    LCD_Command(0xc0);
@@ -102,12 +71,13 @@ if(flag==0){
 	int value;
 	LCD_Clear();
 	ADC_Init();
-	LCD_Init();			
+	LCD_Init();			/* Initialization of LCD */
 	LCD_Command(0xd4);
-	LCD_String("TEMP: ");	
-		value=ADC_Read(5);	                    /* Read ADC channel 5 */
-		int val = map(value, 492, 478, 20, 35); /*Map Digital values to desired Range*/
-		itoa(val,String,10);	                /* Integer to string conversion */ 
+	LCD_String("TEMP: ");	/* Write string on 1st line of LCD */
+			/* LCD16x2 cursor position */
+		value=ADC_Read(5);	/* Read ADC channel 0 */
+		int val = map(value, 492, 478, 20, 35);
+		itoa(val,String,10);	/* Integer to string conversion */ 
 		LCD_String(String);						
 		LCD_String("  ");
 		 _delay_ms(2500);
@@ -129,8 +99,10 @@ if(flag==0){
 			 if(PORTB&(1<<2))
 			 count2++;
 			LCD_Clear();
+			
+		//	LCD_String("light on:");
 		 LCD_Char('l');LCD_Char('i');LCD_Char('g');LCD_Char('h');LCD_Char('t');LCD_Char('o');LCD_Char('n');LCD_Char(':');
-			char charvalue=count1+'0';   //Converts int value into char but only happens for 0-9					
+			char charvalue=count1+'0'; //Converts int value into char but only happens for 0-9					
 		   LCD_Char(charvalue);
 		   _delay_ms(2500);
 			LCD_Clear();
@@ -145,30 +117,9 @@ if(flag==0){
 			
 		}
         else if(result=='0')
-		{ second:
-LCD_Clear();
- LCD_String("Enter oldpwd:");
-for(int i=0;i<4;i++)
-{ 
-char pwd=keyfind();
-LCD_Char(pwd);
-if(i==0&&pwd==arr[i])
-continue;
-else if(i==1&&pwd==arr[i])
-continue;
-else if(i==2&&pwd==arr[i])
-continue;
-else if(i==3&&pwd==arr[i])
-continue;
-else
-{  flag1=1;
-	for(i++;i<4;i++)
-	{
-	pwd=keyfind();
-    LCD_Char(pwd);
-	}
-}}
-         if(flag1==0){
+		{ int result= 0;
+		result=password(arr);
+         if(result==1){
 			 LCD_Clear();
 			 LCD_Init();
 			LCD_String("Resetpwd:");
@@ -176,29 +127,15 @@ else
 				int res1=keyfind();
 				arr[i]=res1;
                LCD_Char(res1);
-				}}				
-		else if(flag1==1)
-		{LCD_Clear(); 
-		LCD_Init();
-		LCD_String("Wrong pwd");
-		flag1=0;
-		 _delay_ms(2500);
-		 LCD_Clear();
-		goto second;	
+				}
+				}				
 			}	
-				
-				goto up;
-		}
-		
+	         /* Display which key is pressed */
 			else if(result=='#')
 			{   PORTC=(0<<0);
 				PORTC=(0<<2);
 				PORTC=(0<<3);
 				PORTC=(0<<4);
-				PORTC=(0<<5);
-				PORTC=(0<<6);
-				PORTB=(0<<1);
-				PORTB=(0<<2);
 				goto up;
 			}
 
