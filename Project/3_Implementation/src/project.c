@@ -4,8 +4,6 @@ int main(void)
 {   int count=0;
 int count1=0,count2=0;
 int flag=0;
-int value;
-char string;
 int flag1=0;
 char arr[4]={'1','2','3','4'};
 up:
@@ -29,7 +27,7 @@ else
 {  flag=1;
 	for(i++;i<4;i++)
 	{
-	char pwd=keyfind();
+	pwd=keyfind();
     LCD_Char(pwd);
 	}
 }
@@ -167,7 +165,7 @@ else
 {  flag1=1;
 	for(i++;i<4;i++)
 	{
-	char pwd=keyfind();
+	pwd=keyfind();
     LCD_Char(pwd);
 	}
 }}

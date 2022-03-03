@@ -3,6 +3,19 @@ MAIN_APP = project
 #Main hex file path in windows format
 MAIN_HEX_PATH = F:\temp\M2-EmbSys\Project\3_Implementation\src\$(MAIN_APP).hex
 
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
+
 # Compiler and other Section
 CC = avr-gcc
 OBJCOPY = avr-objcopy.exe
@@ -34,5 +47,7 @@ $(MAIN_APP).elf: $(MAIN_APP).o
 	
 $(MAIN_APP).o:$(SRC)
 	$(CC) $^ $(INCLUDE) $(CFLAGS) $@
-
 	
+
+staticcheck : 
+	cppcheck --enable=all -iunity .
