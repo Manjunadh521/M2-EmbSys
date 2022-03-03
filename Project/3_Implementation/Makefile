@@ -35,6 +35,10 @@ SRC = src/$(MAIN_APP).c src/homeautofun.c
 # The headers files needed for building the application
 INCLUDE =-Iheader\
 
+TEST_SRC =Unity_Test/test_project.c\
+Unity_Test/onlytesting.c\
+Unity_Test/unity.c
+
 # commands Section
 Burn : Build
 	$(AVRDUDE) $(DUDEFLAGS)
@@ -47,7 +51,11 @@ $(MAIN_APP).elf: $(MAIN_APP).o
 	
 $(MAIN_APP).o:$(SRC)
 	$(CC) $^ $(INCLUDE) $(CFLAGS) $@
-	
+
+build_test : 
+	gcc $(TEST_SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm	
+run_test : build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 staticcheck : 
 	cppcheck --enable=all -iunity .

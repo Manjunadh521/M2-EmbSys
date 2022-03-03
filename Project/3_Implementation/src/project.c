@@ -9,7 +9,6 @@ char arr[4]={'1','2','3','4'};
 up:
 LCD_Init();
 first :
-
 LCD_String("Enter pwd:");
 for(int i=0;i<4;i++)
 { 
