@@ -32,7 +32,7 @@
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | LLR1.1 |  According to the values of __Keypad__  Fan,Light shall be controlled | | LLR2.1 | Entered value on keypad shall be displayed on __LCD__ Screen |
-| LLR1.2 | According to the values of __Kaypad__ opening,closing of doors shall be controlled || LLR2.2 | Number of Lights and Fans On __LCD__ Screen |
+| LLR1.2 | According to the values of __Keypad__ opening,closing of doors shall be controlled || LLR2.2 | Number of Lights and Fans On __LCD__ Screen |
      
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
