@@ -11,7 +11,7 @@ up:
 	DDRC=0xFF;
    	while(1)  
 	{   
-		LCD_Init();	                                   /*LCD Initialisation*/
+			                                  
         LCD_String_xy(0,1,"Press a key");              /* Send string to LCD with xy position */
 	    LCD_Command(0xc0);                             /*LCD Initialisation with first row and required position<16*/
 		char result = keyfind();
@@ -118,14 +118,20 @@ up:
 							arr[i]=res1;
                				LCD_Char(res1);
 						}
+						LCD_Clear();
 				}				
 			}	
 			else if(result=='#')                           /*Microcontroller Reset*/
 			{
 			   	PORTC=(0<<0);
+				PORTC=(0<<1);  
 				PORTC=(0<<2);
 				PORTC=(0<<3);
 				PORTC=(0<<4);
+                PORTC=(0<<6);
+				PORTB=(0<<1);
+				PORTB=(0<<2);
+
 				goto up;
 			}
 

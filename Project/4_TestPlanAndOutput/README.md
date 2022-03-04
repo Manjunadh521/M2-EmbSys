@@ -6,9 +6,9 @@
 | 01 | Thermistor | Room Temperature(35°C) | Temperature(35°C) | Temperature(35°C) | ✅ |
 | 02 | Keypad | 1 | 1(Door Opens) | 1(Door Opens) | ✅ |
 | 03 | Keypad | 2 | 2(Door Closes) | 2(Door Closes) | ✅ |
-| 04 | Keypad | 3 | 3(Ligh1 On or Off) | 3(Ligh On or off) | ✅ |
-| 05 | Keypad | 4 | 4(Ligh On or Off) | 4(Ligh On or off) | ✅ |
-| 06 | Keypad | 5 | 5(Ligh On or Off) | 5(Ligh On or off) | ✅ |
+| 04 | Keypad | 3 | 3(Ligh1 On or Off) | 3(Light On or off) | ✅ |
+| 05 | Keypad | 4 | 4(Ligh On or Off) | 4(Light On or off) | ✅ |
+| 06 | Keypad | 5 | 5(Ligh On or Off) | 5(Light On or off) | ✅ |
 | 07 | Keypad | 6 | 6(Fan On or Off) | 6(Fan On or off) | ✅ |
 | 08 | Keypad | 7 | 7(Fan On or off) | 7(Fan On or off) | ✅ |
 | 09 | Keypad | 8 | 8(Fan On or Off) | 8(Fan On or off) | ✅ |
