@@ -206,6 +206,5 @@ int password(char arr[])            /*Password Check Function*/
 		{
 			return 1;
 		}
-	
-	
+		
 }
