@@ -115,7 +115,7 @@ void ADC_Init();                                       /*Initialising Analog Dat
  * @return int 
  */
 int map(int x, int in_min, int in_max, int out_min, int out_max); /*Initialising Function to Map values*/
-
+ 
 /**
  * @brief Provides security by checking password
  * @param arr 
