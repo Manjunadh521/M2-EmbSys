@@ -75,33 +75,33 @@ up:
 			LCD_Clear();                               /* Clearing LCD */
 		 	LCD_Init();                                /* Initialisation of LCD */
 	 	}
-			else if(result=='*'){                      /* Resetting Controller */
-		   		if(PORTC&(1<<2))
-					count1++;
-				if(PORTC&(1<<3))
-					count1++;
-				if(PORTC&(1<<4))
-			 		count1++;
-			 	if(PORTC&(1<<6))
-			 		count2++;
-			  	if(PORTB&(1<<3))
-			 		count2++;
-			 	if(PORTB&(1<<2))
-			 		count2++;
-				LCD_Clear();
-		 		LCD_Char('l');LCD_Char('i');LCD_Char('g');LCD_Char('h');LCD_Char('t');LCD_Char('o');LCD_Char('n');LCD_Char(':');
-				char charvalue=count1+'0';             /*Converts int value into char but only happens for 0-9*/					
-		   		LCD_Char(charvalue);
-		   		_delay_ms(2500);
-				LCD_Clear();                            /* Clearing LCD */
-				LCD_Char('f');LCD_Char('a');LCD_Char('n');LCD_Char('o');LCD_Char('n');LCD_Char(':');
-	    		char charvalue1=count2+'0';
-            	LCD_Char(charvalue1);             
-				count1=0;
-				count2=0; 
-			 	_delay_ms(2500);
-				LCD_Clear();                             /* Clearing LCD */
-				LCD_String_xy(0,1,"Press a key");	     /* Send string to LCD with xy position */
+		else if(result=='*'){                      /* Resetting Controller */
+			if(PORTC&(1<<2))
+				count1++;
+			if(PORTC&(1<<3))
+				count1++;
+			if(PORTC&(1<<4))
+		 		count1++;
+		 	if(PORTC&(1<<6))			 		
+				count2++;
+			if(PORTB&(1<<3))
+			 	count2++;
+			if(PORTB&(1<<2))
+				count2++;
+			LCD_Clear();
+		 	LCD_Char('l');LCD_Char('i');LCD_Char('g');LCD_Char('h');LCD_Char('t');LCD_Char('o');LCD_Char('n');LCD_Char(':');
+			char charvalue=count1+'0';             /*Converts int value into char but only happens for 0-9*/					
+		   	LCD_Char(charvalue);
+		   	_delay_ms(2500);
+			LCD_Clear();                            /* Clearing LCD */
+			LCD_Char('f');LCD_Char('a');LCD_Char('n');LCD_Char('o');LCD_Char('n');LCD_Char(':');
+	    	char charvalue1=count2+'0';
+            LCD_Char(charvalue1);             
+			count1=0;
+			count2=0; 
+			_delay_ms(2500);
+			LCD_Clear();                             /* Clearing LCD */
+			LCD_String_xy(0,1,"Press a key");	     /* Send string to LCD with xy position */
 		    }
           	else if(result=='0')                         /*Password Reset*/
 			{
@@ -112,13 +112,13 @@ up:
 			 		LCD_Clear();
 			 		LCD_Init();
 					LCD_String("Resetpwd:");
-						for(int i=0;i<4;i++)
-						{
-							int res1=keyfind();
-							arr[i]=res1;
-               				LCD_Char(res1);
-						}
-						LCD_Clear();
+					for(int i=0;i<4;i++)
+					{
+						int res1=keyfind();
+						arr[i]=res1;
+               			LCD_Char(res1);
+					}
+					LCD_Clear();
 				}				
 			}	
 			else if(result=='#')                           /*Microcontroller Reset*/
