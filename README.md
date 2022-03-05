@@ -16,3 +16,4 @@
 | Project ⇨ 6_ImagesAndVideos | All images used in repo |
 | Project ⇨ 7_Applications | Applications |
 | Project ⇨ 8_Output | __Output Images and Videos__ |
+| Project ⇨ 9_Others | Other files except above things|
