@@ -72,8 +72,9 @@ up:
 				LCD_Clear(); /* Clearing LCD */
 				LCD_Init();	 /* Initialisation of LCD */
 			}
+			/* Gives no of appliances on*/
 			else if (result == '*')
-			{ /* Resetting Controller */
+			{ 
 				if (PORTC & (1 << 2))
 					count1++;
 				if (PORTC & (1 << 3))
