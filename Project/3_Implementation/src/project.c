@@ -14,65 +14,65 @@ up:
 		while (1)
 		{
 
-			LCD_String_xy(0, 1, "Press a key"); /* Send string to LCD with xy position */
-			LCD_Command(0xc0);					/*LCD Initialisation with first row and required position<16*/
+			LCD_String_xy(0, 1, "Press a key"); 		/* Send string to LCD with xy position */
+			LCD_Command(0xc0);				/*LCD Initialisation with first row and required position<16*/
 			char result = keyfind();
 			LCD_Char(result);
-			if (result == '1') /*Main door Opens*/
+			if (result == '1') 				/*Main door Opens*/
 			{
 
 				PORTC ^= (1 << 0);
 			}
-			else if (result == '2') /*Main door Closes*/
+			else if (result == '2') 			/*Main door Closes*/
 			{
 				PORTC ^= (1 << 1);
 			}
-			else if (result == '3')
-			{ /*Light1 Control*/
+			else if (result == '3')				/*Light1 Control*/
+			{ 							
 
 				PORTC ^= (1 << 2);
 			}
-			else if (result == '4') /*Light2 Control*/
+			else if (result == '4') 			/*Light2 Control*/
 			{
 				PORTC ^= (1 << 3);
 			}
-			else if (result == '5')
-			{ /*Light3 Control*/
+			else if (result == '5')				/*Light3 Control*/		
+			{ 
 
 				PORTC ^= (1 << 4);
 			}
-			else if (result == '6') /*Fan1 Control*/
+			else if (result == '6')				/*Fan1 Control*/
 			{
 				PORTC ^= (1 << 6);
 			}
-			else if (result == '7') /*Fan2 Control*/
+			else if (result == '7') 			/*Fan2 Control*/
 			{
 				PORTB ^= (1 << 2);
 			}
-			else if (result == '8') /*Fan3 Control*/
+			else if (result == '8') 			/*Fan3 Control*/
 			{
 				PORTB ^= (1 << 3);
 			}
 
-			else if (result == '9') /*Room Temperature Display*/
+			else if (result == '9') 			/*Room Temperature Display*/
 			{
 				char String[5];
 				int value;
 				LCD_Clear();
 				ADC_Init();
-				LCD_Init();								/* Initialization of LCD */
-				LCD_Command(0xd4);						/* LCD16x2 cursor position */
-				LCD_String("TEMP: ");					/* Write string on 1st line of LCD */
-				value = ADC_Read(5);					/* Read ADC channel 5 */
+				LCD_Init();				/* Initialization of LCD */
+				LCD_Command(0xd4);			/* LCD16x2 cursor position */
+				LCD_String("TEMP: ");			/* Write string on 1st line of LCD */
+				value = ADC_Read(5);			/* Read ADC channel 5 */
 				int val = map(value, 492, 478, 20, 35); /* Calling Map Function*/
-				itoa(val, String, 10);					/* Integer to string conversion */
-				LCD_String(String);						/* Initialising LCD String */
+				itoa(val, String, 10);			/* Integer to string conversion */
+				LCD_String(String);			/* Initialising LCD String */
 				LCD_String("  ");
 				_delay_ms(2500);
-				LCD_Clear(); /* Clearing LCD */
-				LCD_Init();	 /* Initialisation of LCD */
+				LCD_Clear(); 				/* Clearing LCD */
+				LCD_Init();	 			/* Initialisation of LCD */
 			}
-			/* Gives no of appliances on*/
+									/* Gives no of appliances on*/
 			else if (result == '*')
 			{ 
 				if (PORTC & (1 << 2))
@@ -96,10 +96,10 @@ up:
 				LCD_Char('o');
 				LCD_Char('n');
 				LCD_Char(':');
-				char charvalue = count1 + '0'; /*Converts int value into char but only happens for 0-9*/
+				char charvalue = count1 + '0'; 		/*Converts int value into char but only happens for 0-9*/
 				LCD_Char(charvalue);
 				_delay_ms(2500);
-				LCD_Clear(); /* Clearing LCD */
+				LCD_Clear(); 				/* Clearing LCD */
 				LCD_Char('f');
 				LCD_Char('a');
 				LCD_Char('n');
@@ -111,10 +111,10 @@ up:
 				count1 = 0;
 				count2 = 0;
 				_delay_ms(2500);
-				LCD_Clear();						/* Clearing LCD */
-				LCD_String_xy(0, 1, "Press a key"); /* Send string to LCD with xy position */
+				LCD_Clear();				/* Clearing LCD */
+				LCD_String_xy(0, 1, "Press a key");	/* Send string to LCD with xy position */
 			}
-			else if (result == '0') /*Password Reset*/
+			else if (result == '0') 			/*Password Reset*/
 			{
 				int result = 0;
 				result = password(arr);
@@ -132,7 +132,7 @@ up:
 					LCD_Clear();
 				}
 			}
-			else if (result == '#') /*Microcontroller Reset*/
+			else if (result == '#') 			/*Microcontroller Reset*/
 			{
 				PORTC = (0 << 0);
 				PORTC = (0 << 1);
