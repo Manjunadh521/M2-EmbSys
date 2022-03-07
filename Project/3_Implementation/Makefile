@@ -17,7 +17,7 @@ endif
 
 
 # Compiler and other Section
-CC = avr-gcc
+CC = avr-gcc -std=c99
 OBJCOPY = avr-objcopy.exe
 
 #Options for avr-gcc
@@ -41,7 +41,7 @@ Unity_Test/unity.c
 
 # commands Section
 Burn : Build
-	$(AVRDUDE) $(DUDEFLAGS)
+	$(AVRDUDE) $(DUDEFLAGS) 
 
 Build : $(MAIN_APP).elf
 	$(OBJCOPY) $(HFLAGS) $< $(MAIN_APP).hex

@@ -69,13 +69,8 @@ unsigned char keypad[4][4] = {{'7', '8', '9', '7'},
 			      {'1', '2', '3', '1'},
 			      {'*', '0', '#', '*'}};
 
-<<<<<<< HEAD
-unsigned char col, row; 
-char keyfind() /*Keypad Check Initialisation*/
-=======
 unsigned char col, row;
 char keyfind() 							/*Keypad Check Initialisation*/
->>>>>>> 107bac43e2a87a00507f2e1e77cde68193ffce31
 {
 	while (1)
 	{
